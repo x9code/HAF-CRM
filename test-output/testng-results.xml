@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[database connected successfully]]>
+    </line>
+    <line>
+      <![CDATA[browser launched]]>
+    </line>
+    <line>
+      <![CDATA[signed in successfully]]>
+    </line>
+    <line>
+      <![CDATA[signed out successfully]]>
+    </line>
+    <line>
+      <![CDATA[browser closed]]>
+    </line>
+    <line>
+      <![CDATA[database disconnected successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-12-27T11:46:36 IST" name="Default suite" finished-at="2025-12-27T11:47:03 IST" duration-ms="27461">
+    <groups>
+    </groups>
+    <test started-at="2025-12-27T11:46:36 IST" name="Default test" finished-at="2025-12-27T11:47:03 IST" duration-ms="27461">
+      <class name="com.vtigercrm.organizationTest.CreateOrgTest">
+        <test-method is-config="true" signature="databaseConnection()[pri:0, instance:com.vtigercrm.organizationTest.CreateOrgTest@4fb0f2b9]" started-at="2025-12-27T11:46:36 IST" name="databaseConnection" finished-at="2025-12-27T11:46:36 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[database connected successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- databaseConnection -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.vtigercrm.organizationTest.CreateOrgTest@4fb0f2b9]" started-at="2025-12-27T11:46:36 IST" name="launchBrowser" finished-at="2025-12-27T11:46:40 IST" duration-ms="3586" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[browser launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.vtigercrm.organizationTest.CreateOrgTest@4fb0f2b9]" started-at="2025-12-27T11:46:40 IST" name="login" finished-at="2025-12-27T11:46:40 IST" duration-ms="384" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[signed in successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createOrg()[pri:0, instance:com.vtigercrm.organizationTest.CreateOrgTest@4fb0f2b9]" started-at="2025-12-27T11:46:40 IST" name="createOrg" finished-at="2025-12-27T11:47:01 IST" duration-ms="20469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrg -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.vtigercrm.organizationTest.CreateOrgTest@4fb0f2b9]" started-at="2025-12-27T11:47:01 IST" name="logout" finished-at="2025-12-27T11:47:03 IST" duration-ms="2492" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[signed out successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.vtigercrm.organizationTest.CreateOrgTest@4fb0f2b9]" started-at="2025-12-27T11:47:03 IST" name="closeBrowser" finished-at="2025-12-27T11:47:03 IST" duration-ms="457" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[browser closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="disconnect()[pri:0, instance:com.vtigercrm.organizationTest.CreateOrgTest@4fb0f2b9]" started-at="2025-12-27T11:47:04 IST" name="disconnect" finished-at="2025-12-27T11:47:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[database disconnected successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- disconnect -->
+      </class> <!-- com.vtigercrm.organizationTest.CreateOrgTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
