@@ -1,4 +1,4 @@
-package com.vtigrtcrm.generic;
+package com.vtigercrm.generic;
 
 
 import java.io.IOException;

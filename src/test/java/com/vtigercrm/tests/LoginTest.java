@@ -4,11 +4,11 @@ package com.vtigercrm.tests;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import com.vtigercrm.objectRepository.HomePage;
-import com.vtigrtcrm.generic.BaseClass;
-import com.vtigrtcrm.generic.ListenerImplementation;
+import com.vtigercrm.generic.BaseClass;
+import com.vtigercrm.generic.TestListener;
 
 
-@Listeners(ListenerImplementation.class)
+@Listeners(TestListener.class)
 public class LoginTest extends BaseClass {
 	
 	@Test

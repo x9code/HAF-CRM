@@ -3,14 +3,15 @@ package com.vtigercrm.organizationTest;
 import java.io.IOException;
 
 import org.apache.poi.EncryptedDocumentException;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-
-import com.vtigercrm.objectRepository.HomePage;
-import com.vtigercrm.objectRepository.OrganizationPage;
+import com.vtigercrm.generic.TestListener;
 import com.vtigercrm.utility.FileUtility;
 import com.vtigercrm.utility.SeleniumUtility;
-import com.vtigrtcrm.generic.BaseClass;
+import com.vtigercrm.generic.BaseClass;
 
+
+@Listeners(TestListener.class)
 public class CreateOrgTest extends BaseClass {
 	FileUtility f = new FileUtility();
 	SeleniumUtility s = new SeleniumUtility();

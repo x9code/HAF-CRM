@@ -1,4 +1,4 @@
-package com.vtigrtcrm.generic;
+package com.vtigercrm.generic;
 
 import java.io.File;
 import java.io.IOException;
@@ -16,7 +16,7 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 import com.google.common.io.Files;
 
-public class ListenerImplementation extends BaseClass implements ITestListener {
+public class TestListener extends BaseClass implements ITestListener {
 	ExtentReports extent ;
 	ExtentTest test;
 	JavaUtility j = new JavaUtility();
