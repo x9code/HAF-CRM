@@ -7,8 +7,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
-import freemarker.template.Template.WrongEncodingException;
-
 public class SeleniumUtility {
 	
 	public void maximize(WebDriver driver) {

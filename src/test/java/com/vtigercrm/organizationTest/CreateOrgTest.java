@@ -32,5 +32,4 @@ public class CreateOrgTest extends BaseClass {
 		s.selectByContainsVisibleText(org.getIndustry(), f.excelReader("organization",2, 3));
 		org.getCancelBtn().click();
 	}
-
 }

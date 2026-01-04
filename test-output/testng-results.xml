@@ -20,51 +20,51 @@
       <![CDATA[database disconnected successfully]]>
     </line>
   </reporter-output>
-  <suite started-at="2026-01-02T10:35:59 IST" name="Default suite" finished-at="2026-01-02T10:37:34 IST" duration-ms="95637">
+  <suite started-at="2026-01-04T10:40:27 IST" name="Default suite" finished-at="2026-01-04T10:41:17 IST" duration-ms="49885">
     <groups>
     </groups>
-    <test started-at="2026-01-02T10:35:59 IST" name="Default test" finished-at="2026-01-02T10:37:34 IST" duration-ms="95637">
+    <test started-at="2026-01-04T10:40:27 IST" name="Default test" finished-at="2026-01-04T10:41:17 IST" duration-ms="49885">
       <class name="com.vtigercrm.organizationTest.CreateOrgTest">
-        <test-method is-config="true" signature="databaseConnection()[pri:0, instance:com.vtigercrm.organizationTest.CreateOrgTest@4cc451f2]" started-at="2026-01-02T10:35:59 IST" name="databaseConnection" finished-at="2026-01-02T10:35:59 IST" duration-ms="21" status="PASS">
+        <test-method is-config="true" signature="databaseConnection()[pri:0, instance:com.vtigercrm.organizationTest.CreateOrgTest@4cc451f2]" started-at="2026-01-04T10:40:27 IST" name="databaseConnection" finished-at="2026-01-04T10:40:27 IST" duration-ms="13" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[database connected successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- databaseConnection -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.vtigercrm.organizationTest.CreateOrgTest@4cc451f2]" started-at="2026-01-02T10:35:59 IST" name="launchBrowser" finished-at="2026-01-02T10:36:19 IST" duration-ms="19786" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.vtigercrm.organizationTest.CreateOrgTest@4cc451f2]" started-at="2026-01-04T10:40:27 IST" name="launchBrowser" finished-at="2026-01-04T10:40:38 IST" duration-ms="10518" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[browser launched]]>
             </line>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.vtigercrm.organizationTest.CreateOrgTest@4cc451f2]" started-at="2026-01-02T10:36:19 IST" name="login" finished-at="2026-01-02T10:36:40 IST" duration-ms="20881" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.vtigercrm.organizationTest.CreateOrgTest@4cc451f2]" started-at="2026-01-04T10:40:38 IST" name="login" finished-at="2026-01-04T10:40:48 IST" duration-ms="10174" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[signed in successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="createOrg()[pri:0, instance:com.vtigercrm.organizationTest.CreateOrgTest@4cc451f2]" started-at="2026-01-02T10:36:40 IST" name="createOrg" finished-at="2026-01-02T10:37:29 IST" duration-ms="49543" status="PASS">
+        <test-method signature="createOrg()[pri:0, instance:com.vtigercrm.organizationTest.CreateOrgTest@4cc451f2]" started-at="2026-01-04T10:40:48 IST" name="createOrg" finished-at="2026-01-04T10:41:14 IST" duration-ms="25578" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createOrg -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.vtigercrm.organizationTest.CreateOrgTest@4cc451f2]" started-at="2026-01-02T10:37:29 IST" name="logout" finished-at="2026-01-02T10:37:34 IST" duration-ms="4532" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.vtigercrm.organizationTest.CreateOrgTest@4cc451f2]" started-at="2026-01-04T10:41:14 IST" name="logout" finished-at="2026-01-04T10:41:17 IST" duration-ms="2930" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[signed out successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.vtigercrm.organizationTest.CreateOrgTest@4cc451f2]" started-at="2026-01-02T10:37:34 IST" name="closeBrowser" finished-at="2026-01-02T10:37:34 IST" duration-ms="421" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.vtigercrm.organizationTest.CreateOrgTest@4cc451f2]" started-at="2026-01-04T10:41:17 IST" name="closeBrowser" finished-at="2026-01-04T10:41:17 IST" duration-ms="371" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[browser closed]]>
             </line>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="disconnect()[pri:0, instance:com.vtigercrm.organizationTest.CreateOrgTest@4cc451f2]" started-at="2026-01-02T10:37:35 IST" name="disconnect" finished-at="2026-01-02T10:37:35 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="disconnect()[pri:0, instance:com.vtigercrm.organizationTest.CreateOrgTest@4cc451f2]" started-at="2026-01-04T10:41:18 IST" name="disconnect" finished-at="2026-01-04T10:41:18 IST" duration-ms="2" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[database disconnected successfully]]>
